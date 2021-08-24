@@ -37,50 +37,6 @@
             </tr>
         </table>
     </form>
-    <table border= 3 align="center" >
-	<tr>	<td> 
-<form method="POST" action="" enctype="multipart/form-data">
-<label> upload it </label>	
-<input type="file"	name="image"	value="" /> 
-			<div>
-          
-			</div>
-<label> book name </label>
-<div>
-<input type ="text" name ="name" value="">
-</div>
-<div>
-<input type='submit' name='upload' value='upload' >
-</div>	
-</form> 
-    <?php
-    $connection = mysqli_connect("localhost","root","");
-    $db = mysqli_select_db($connection,'photos');
-    
-    if(isset($_POST['upload']))
-    {
-   $file = addslashes(file_get_contents($_FILES["image"]["tmp_name"]));
-     $name = $_POST['name'];
-     
-     $query = "INSERT INTO `imager`(`image`,`name`) VALUES('$file','$name')"; 
-      $query_run = mysqli_query($connection,$query);
-
-        if($query_run)
-        {
-          echo '<script type = "text/javascript"> alert("Image Uploaded")</script>';
-        }
-        else{
-          echo '<script type = "text/javascript"> alert("Image not Uploaded")</script>';
-        }
-     
-    }
-
-    ?>
-		
-	</div>
-</td>
-</tr>
-</table>
 </body>
 </html>
 	
