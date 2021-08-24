@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <body bgcolor="87ceeb">
-    <center><h2>Display Library Management System</h2></center>
+    <center><h2>Display Library System</h2></center>
     <br>
  
     <?php
