@@ -8,23 +8,23 @@
         <table border="3" align="center" cellpadding="5" cellspacing="5">
             <tr>
             <td> Enter ISBN :</td>
-            <td> <input type="text" name="isbn" size="48"> </td>
+            <td> <input type="alphanumeric" name="isbn" size="48" maxlength = "13" required> </td>
             </tr>
             <tr>
             <td> Enter Title :</td>
-            <td> <input type="text" name="title" size="48"> </td>
+            <td> <input type="text" name="title" size="48" required> </td>
             </tr>
             <tr>
             <td> Enter Author :</td>
-            <td> <input type="text" name="author" size="48"> </td>
+            <td> <input type="text" name="author" size="48" required> </td>
             </tr>
             <tr>
             <td> Enter Edition :</td>
-            <td> <input type="text" name="edition" size="48"> </td>
+            <td> <input type="text" name="edition" size="48" required> </td>
             </tr>
             <tr>
             <td> Enter Publication: </td>
-            <td> <input type="text" name="publication" size="48"> </td>
+            <td> <input type="text" name="publication" size="48" required> </td>
             </tr>
             <tr>
             </tr>
