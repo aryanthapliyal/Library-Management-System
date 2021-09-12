@@ -76,7 +76,7 @@
   <form method="POST" action="upload&fetchimg.php" enctype="multipart/form-data">
   	<input type="hidden" name="size" value="1000000">
   	<div>
-  	  <input type="file" name="image">
+  	  <input type="file" multiple accept="image/x-png,image/gif,image/jpeg" name="image">
   	</div>
   	<div>
       <textarea 
