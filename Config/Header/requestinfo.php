@@ -85,7 +85,7 @@
  
     <a href="SearchBooks.php"> To search for the Book information click here </a>
     <div>
-    <a href="requestbooks.php"> To request for the Books click here </a>
+    <a href="library.php"> To register for the Books click here </a>
 </div>
     <a href="upload&fetchimg.php"> To upload or view picture of books click here </a>
 </body>
