@@ -3,9 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>How to Create responsive Homepage</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <title>Library</title>
+    <link href="" rel="stylesheet">
     <link rel="stylesheet" href="style.css">    
+    <link rel="javascript" href="pg.js">    
 </head>
 <body>
     <header>
@@ -14,11 +15,12 @@
             <img src="" alt="">
         </div>
 <ul class="nav-area">
-<li><a href="homepage.php">Home</a></li>
-<li><a href="DisplayBooks.php">Read books available</a></li>
+<li><a href="mainpage.php">About us</a></li>
+<li><a href="dsplybks.php">Read books available</a></li>
 <li><a href="requestbooks.php">Request new books</a></li>
 <li><a href="library.php">Register new books</a></li>
 <li><a href="upload&fetchimg.php">Preview images of books </a></li>
+<li><a href="displayrequest.php">Requested Books</a></li>
 </ul>
 </div>
 <div class="welcome-text">
@@ -30,3 +32,15 @@
 
 </body>
 </html>
+<body oncontextmenu="return false;">
+<script>
+document.onekeydown=function(e)
+{
+    if(event.keycode==123)
+    {return false;}
+    if(e.ctrlKey && e.shiftkey && e.keycode == 'I'.charCodeAt(0))
+       {return false;}
+       if(e.ctrlKey && e.shiftkey && e.keycode == 'J'.charCodeAt(0))
+       {return false;}
+}
+    </script>
